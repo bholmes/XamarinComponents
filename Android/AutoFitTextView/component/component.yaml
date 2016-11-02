@@ -6,7 +6,7 @@ publisher-url: http://xamarin.com/
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/Android/AutoFitTextView
 summary: A TextView that automatically resizes text to fit perfectly within its bounds.
 
-license: License.md
+license: ../License.md
 details: Details.md
 getting-started: GettingStarted.md
 
@@ -26,4 +26,7 @@ samples:
     path: ../samples/AutoFitTextViewSample.sln
     removeFiles:
       - AutoFitTextViewSample/Makefile
- 
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
