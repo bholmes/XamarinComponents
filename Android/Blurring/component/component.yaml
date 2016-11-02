@@ -6,7 +6,7 @@ publisher-url: http://xamarin.com/
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/Android/Blurring
 summary: A custom view for presenting a dynamically blurred version of another view's content.
 
-license: License.md
+license: ../License.md
 details: Details.md
 getting-started: GettingStarted.md
 
