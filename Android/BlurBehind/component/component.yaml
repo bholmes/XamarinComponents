@@ -5,7 +5,7 @@ publisher: Xamarin Inc
 publisher-url: http://xamarin.com/
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/Android/BlurBehind
 summary: Easily have blurred and transparent background effect on your Android views.
-license: License.md
+license: ../License.md
 details: Details.md
 getting-started: GettingStarted.md
 icons:
@@ -20,3 +20,7 @@ packages:
 samples:
   - name: "BlurBehind Android Sample"
     path: ../samples/BlurBehindSample.sln
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
