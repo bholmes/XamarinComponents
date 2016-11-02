@@ -18,5 +18,6 @@
   </metadata>
   <files>  
     <file src="output/AndroidViewAnimations.dll" target="lib/MonoAndroid23" />
+    <file src="External-Dependency-Info" target="THIRD-PARTY-NOTICES" />
   </files>
 </package>
