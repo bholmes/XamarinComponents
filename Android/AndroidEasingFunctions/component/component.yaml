@@ -6,7 +6,7 @@ publisher-url: http://xamarin.com/
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/Android/AndroidEasingFunctions
 summary: Various Android animation easing functions.
 
-license: License.md
+license: ../License.md
 details: Details.md
 getting-started: GettingStarted.md
 
@@ -26,3 +26,7 @@ samples:
     path: ../samples/AndroidEasingFunctionsSample.sln
     removeFiles:
       - AndroidEasingFunctionsSample/Makefile
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
