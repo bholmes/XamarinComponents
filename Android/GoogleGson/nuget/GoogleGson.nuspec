@@ -14,5 +14,6 @@
   </metadata>
   <files>  
     <file src="output/GoogleGson.dll" target="lib/MonoAndroid" />
+    <file src="External-Dependency-Info" target="THIRD-PARTY-NOTICES" />
   </files>
 </package>
