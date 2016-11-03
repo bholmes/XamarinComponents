@@ -18,5 +18,6 @@
   </metadata>
   <files>  
     <file src="output/RecyclerViewAnimators.dll" target="lib/MonoAndroid403" />
+    <file src="External-Dependency-Info" target="THIRD-PARTY-NOTICES" />
   </files>
 </package>
