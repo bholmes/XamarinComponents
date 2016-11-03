@@ -6,7 +6,7 @@ publisher-url: http://xamarin.com/
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/Android/SortableTableView
 summary: A simple TableView and an advanced SortableTableView providing a lot of customisation possibilities to fit all needs.
 
-license: License.md
+license: ../License.md
 details: Details.md
 getting-started: GettingStarted.md
 
@@ -25,3 +25,7 @@ packages:
 samples:
   - name: "Android Sample"
     path: ../samples/SortableTableViewSample.sln
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
