@@ -8,7 +8,7 @@ summary: A very simple library that allows you to stick any View as a header of 
 
 getting-started: GettingStarted.md
 details: Details.md
-license: License.md
+license: ../License.md
 
 icons: 
   - ../images/icon_128x128.png
@@ -26,3 +26,7 @@ packages:
     - Xamarin.Android.Support.v4, Version=23.0.1.1
     - Xamarin.Android.Support.v7.GridLayout, Version=23.0.1.1
     - Xamarin.Android.Support.v7.RecyclerView, Version=23.0.1.1
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
