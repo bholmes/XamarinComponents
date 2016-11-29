@@ -5,7 +5,7 @@ summary: Multi choice circle button with cool 3d parallax effect
 publisher: Xamarin Inc
 publisher-url: http://www.xamarin.com/
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/JZMultiChoicesCircleButton
-license: License.md
+license: ../License.md
 details: Details.md
 getting-started: GettingStarted.md
 icons: 
@@ -20,3 +20,7 @@ samples:
   - name: "iOS Unified Sample"
     path: ../samples/JZMultiChoicesCircleButtonSample.sln
 no_build: true
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
