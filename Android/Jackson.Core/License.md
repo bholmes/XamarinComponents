@@ -1,4 +1,4 @@
-### Xamarin Component for Jackson.Core
+### Xamarin Component for Jackson Core for Xamarin Android
 
 **The MIT License (MIT)**
 

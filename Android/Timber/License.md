@@ -1,4 +1,4 @@
-### Xamarin Component for Timber
+### Xamarin Component for Timber for Xamarin.Android
 
 **The MIT License (MIT)**
 
