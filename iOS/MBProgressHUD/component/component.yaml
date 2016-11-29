@@ -6,6 +6,7 @@ publisher-url: http://xamarin.com/
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/MBProgressHUD
 summary: A translucent, HUD-style dialog that shows a progress indicator and a status label.
 no_build: true
+license: ../License.md
 libraries:
   ios-unified: ../output/unified/MBProgressHUD.dll
 samples:
@@ -22,3 +23,7 @@ screenshots:
 is_shell: true
 packages:
   ios-unified: mbprogresshud, Version=0.9.2.0
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
