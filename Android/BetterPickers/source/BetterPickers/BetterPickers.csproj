@@ -15,6 +15,7 @@
     <AssemblyName>BetterPickers</AssemblyName>
     <Java7DocPaths>Jars/docs</Java7DocPaths>
     <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <AndroidClassParser>jar2xml</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
