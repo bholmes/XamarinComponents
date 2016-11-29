@@ -5,6 +5,7 @@ publisher: Xamarin Inc
 publisher-url: http://xamarin.com
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/AMScrollingNavbar
 summary: A custom UINavigationController that enables the scrolling of the navigation bar alongside the scrolling of an observed content view
+license: ../License.md
 
 no_build: true
 
@@ -19,3 +20,7 @@ samples:
     path: ../samples/AMScrollingNavbarSample/AMScrollingNavbarSample.sln
 
 monodoc: ../docs/
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
