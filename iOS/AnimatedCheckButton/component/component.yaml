@@ -5,6 +5,7 @@ publisher: Xamarin Inc
 publisher-url: http://xamarin.com
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/AnimatedCheckButton
 summary: The Animated Check Button is an animated UIControl, that has a nice animation between its checked and unchecked states
+license: ../License.md
 
 no_build: true
 
@@ -23,3 +24,7 @@ samples:
      - AnimatedCheckButtonSample/Makefile
 
 monodoc: ../docs/
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
