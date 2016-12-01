@@ -5,6 +5,8 @@ publisher: Xamarin Inc
 publisher-url: https://xamarin.com
 summary: Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/Masonry
+license: ../License.md
+
 icons:
   - icons/Masonry_128x128.png
 libraries:
@@ -17,3 +19,7 @@ no_build: true
 is_shell: true
 packages:
   ios-unified: Masonry, Version=0.6.4.0
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
