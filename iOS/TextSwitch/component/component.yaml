@@ -6,6 +6,8 @@ publisher-url: http://xamarin.com
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/TextSwitch
 summary: TextSwitch is a switch control with two textual options.
 
+license: ../License.md
+
 no_build: true
 
 icons:
@@ -21,3 +23,8 @@ samples:
     configuration: "Release|iPhone"
 
 monodoc: ../docs/
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
+
