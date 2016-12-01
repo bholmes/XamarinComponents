@@ -5,6 +5,8 @@ publisher: Xamarin Inc
 publisher-url: https://xamarin.com
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/SCCatWaitingHUD
 summary: Cute and simple waiting HUD indicator on iOS.
+license: ../License.md
+
 icons:
   - icons/icon_128x128.png
   - icons/icon_512x512.png
@@ -14,3 +16,7 @@ samples:
   - name: "SCCatWaitingHUD Sample"
     path:  ../samples/SCCatWaitingHUDSample.sln
 no_build: true
+
+additional-files:
+  - source: "../External-Dependency-Info"
+    destination: "THIRD-PARTY-NOTICES"
