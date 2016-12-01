@@ -5,6 +5,7 @@ publisher: Xamarin Inc
 publisher-url: http://xamarin.com
 src-url: https://github.com/xamarin/XamarinComponents/tree/master/iOS/VideoSplash
 summary: VideoSplash is a video-based UIViewController.
+license: ../License.md
 
 no_build: true
 
